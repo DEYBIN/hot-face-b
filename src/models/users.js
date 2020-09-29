@@ -3,7 +3,7 @@ const newSchema = new Schema({
 	name: { type: String, required: true },
 	lastName: { type: String, required: true },
 	nickName: { type: String, required: true },
-	dateBirth: { type: Date, required: true },
+	dateBirth: { type: String, required: true },
 	email: {type: String, required: true},
 	phone: { type: String, required: true },
 	city: { type: String, required: true },
