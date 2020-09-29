@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const { response } = require("../app");
 const router = Router();
-const models = require("../Models/profile");
+const models = require("../models/profile");
 router.post('/',(req,res)=>{	
 	let postData = req.body;
 
