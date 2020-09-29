@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require('cors');
 const morgan = require('morgan');
 const passport = require('passport');
-const session = require('express-session');
+// const session = require('express-session');
 const flash = require('connect-flash');
 
 
@@ -25,11 +25,11 @@ app.use(express.urlencoded({ extended: true }));
 
 // Configurar cabeceras y cors
 
-app.use(session({
-	secret: 'Redis$ecretP@ssword2020',
-	resave: false,
-	saveUninitialized: false
-}));
+// app.use(session({
+// 	secret: 'Redis$ecretP@ssword2020',
+// 	resave: false,
+// 	saveUninitialized: false
+// }));
 
 //routers
 app.use("/registro", require("./Routers/register.routes"));
