@@ -32,7 +32,7 @@ app.use(express.urlencoded({ extended: true }));
 // }));
 
 //routers
-app.use("/registro", require("./routers/register.routes"));
+app.use("/registro", require("./routers/register"));
 
 
 
