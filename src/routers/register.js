@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const models = require("../models/profile");
+const models = require("../models/users");
 router.post('/',(req,res)=>{	
 	let postData = req.body;
 
