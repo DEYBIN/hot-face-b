@@ -1,6 +1,7 @@
 require('dotenv').config();
 const app = require('./src/app');
-require('./src/database');
+require('./src/dbconnect');
+
 // require('./src/passport/authSecurity');
 async function main() {
 	await app.listen(app.get('port'));
