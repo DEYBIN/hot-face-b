@@ -1,5 +1,4 @@
 const { Router } = require("express");
-const { response } = require("../app");
 const router = Router();
 const models = require("../models/profile");
 router.post('/',(req,res)=>{	
